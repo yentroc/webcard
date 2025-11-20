@@ -1,0 +1,38 @@
+  
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cortney Ngo</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <div class="card" id="businessCard">
+      <div class="card-inner">
+        <div class="card-face card-front">
+          <p>Designer</p>
+          <h1>Your Name</h1>
+          <p>Some info about you.</p>
+        </div>
+        <div class="card-face card-back">
+          <h2>Contact</h2>
+          <p>you@email.com</p>
+          <p>123 · 213 · 3212</p>
+          <p>@ighandle</p>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <script>
+      const card = document.getElementById('businessCard');
+      card?.addEventListener('click', () => {
+        card.classList.toggle('is-flipped');
+      });
+    </script>
+  </footer>
+</body>
+
+</html>
